@@ -1,6 +1,6 @@
 h1{
     color: white;
-    background-color: black;
+    background-color: blue;
     padding: 5px;
     border:white solid;
     font-size: 60px;
@@ -11,4 +11,12 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+button{
+    background-color: black;
+    color: white;
+    
+}
+button:hover{
+    border-color: yellow; 
 }

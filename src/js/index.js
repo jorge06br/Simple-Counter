@@ -9,10 +9,9 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
-let counter=0
 
-setInterval(function count(){(ReactDOM.render(<Home secs={counter}/>, document.querySelector("#app")))
-console.log(counter)
-return counter++},1000)
+
+
+
 
 
